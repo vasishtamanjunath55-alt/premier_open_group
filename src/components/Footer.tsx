@@ -8,10 +8,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About Section */}
           <div>
-            <h3 className="text-lg font-bold mb-4 text-secondary">About BSG India</h3>
+            <h3 className="text-lg font-bold mb-1 text-secondary">About BSG India</h3>
+            <p className="text-sm opacity-90 leading-relaxed mb-4">
+              The Bharat Scouts and Guides is India's premier youth development organization fostering
+              character, citizenship, and service among young people.
+            </p>
+            <h3 className="text-lg font-bold mb-1 text-secondary">About Premier Open Group</h3>
             <p className="text-sm opacity-90 leading-relaxed">
-              The Bharat Scouts and Guides is India's premier youth development organization, 
-              fostering character, citizenship, and service in young people across the nation.
+              Premier Open Group, under BSG Karnataka, is dedicated to empowering youth through
+              leadership, service, and adventure while nurturing responsibility and character.
             </p>
           </div>
 
@@ -64,7 +69,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-primary-glow mt-8 pt-8 text-center text-sm opacity-75">
-          <p>&copy; 2025 The Bharat Scouts & Guides. All rights reserved.</p>
+          <p>&copy; 2025 Premier Open . All rights reserved.</p>
         </div>
       </div>
     </footer>
