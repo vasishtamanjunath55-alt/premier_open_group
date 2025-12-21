@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Users, Clock } from 'lucide-react';
-import programsImage from '@/assets/programs-hero.jpg';
+import groupPhoto from '@/assets/group-photo.jpg';
 
 export default function Programs() {
   const { data: programs, isLoading } = useQuery({
@@ -25,23 +25,23 @@ export default function Programs() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative h-96 flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0">
-          <img 
-            src={programsImage} 
-            alt="BSG Programs" 
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-primary opacity-90"></div>
-        </div>
+      <section className="relative h-[500px] pt-24 flex items-center justify-center overflow-hidden">
+  <div className="absolute inset-0">
+    <img 
+      src={groupPhoto} 
+      alt="Premier Open Group Programs"
+      className="w-full h-full object-cover"
+    />
+    <div className="absolute inset-0 bg-gradient-primary opacity-90"></div>
+  </div>
         
-        <div className="relative z-10 container mx-auto px-4 text-center text-primary-foreground">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">Our Programs</h1>
-          <p className="text-xl md:text-2xl max-w-2xl mx-auto">
-            Discover exciting opportunities for growth and adventure
-          </p>
-        </div>
-      </section>
+  <div className="relative z-10 container mx-auto px-4 text-center text-primary-foreground">
+    <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">Our Programs</h1>
+    <p className="text-xl md:text-2xl max-w-2xl mx-auto">
+      Discover exciting opportunities for growth and adventure
+    </p>
+  </div>
+</section>
 
       {/* Programs Grid */}
       <section className="py-20 container mx-auto px-4">
