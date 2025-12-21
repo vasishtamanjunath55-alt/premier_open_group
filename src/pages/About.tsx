@@ -11,7 +11,7 @@ export default function About() {
       <Navigation />
       
      {/* Hero Section */}
-<section className="relative w-full h-[500px]">
+<section className="relative w-full h-[500px] pt-24">
   <img 
     src={groupPhoto}
     alt="Premier Open Group"
