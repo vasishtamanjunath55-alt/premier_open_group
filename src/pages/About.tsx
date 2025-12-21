@@ -2,7 +2,7 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { Card, CardContent } from '@/components/ui/card';
 import { Target, Eye, Heart, Users, Award, Globe } from 'lucide-react';
-import programsImage from '@/assets/programs-hero.jpg';
+import groupPhoto from '@/assets/group-photo.jpg';
 import pandaLogo from '@/assets/logo.png';
 
 export default function About() {
@@ -10,24 +10,32 @@ export default function About() {
     <div className="min-h-screen flex flex-col">
       <Navigation />
       
-      {/* Hero Section */}
-      <section className="relative h-96 flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0">
-          <img 
-            src={programsImage} 
-            alt="About BSG" 
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-primary opacity-90"></div>
-        </div>
-        
-        <div className="relative z-10 container mx-auto px-4 text-center text-primary-foreground">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">About Us</h1>
-          <p className="text-xl md:text-2xl max-w-2xl mx-auto">
-            Serving the youth of Karnataka since 1987-88
-          </p>
-        </div>
-      </section>
+     {/* Hero Section */}
+<section className="relative w-full h-[500px]">
+  <img 
+    src={groupPhoto}
+    alt="Premier Open Group"
+    className="w-full h-full object-cover"
+  />
+
+  <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+    <div className="text-center text-white px-4">
+      <h1 className="text-5xl md:text-6xl font-bold mb-4">About Us</h1>
+      <p className="text-xl md:text-2xl">
+        Serving the youth of Karnataka since 1987-88
+      </p>
+    </div>
+  </div>
+</section>
+      <section className="container mx-auto px-4 py-16 flex justify-center">
+  <div className="rounded-full border-4 border-primary w-64 h-64 overflow-hidden shadow-lg">
+    <img 
+      src={groupPhoto}
+      alt="Group Photo"
+      className="w-full h-full object-cover"
+    />
+  </div>
+</section>
 
       {/* Establishment Info */}
       <section className="py-20 container mx-auto px-4 bg-muted">
@@ -246,8 +254,8 @@ export default function About() {
                 <h4 className="text-xl font-semibold mb-4 text-primary">Guides</h4>
                 <div className="grid grid-cols-1 gap-4">
                   {[
-                    { name: 'Maria Leena', role: 'ADV (GC)' },
-                    { name: 'Anne L', role: 'BASIC (RL)' }
+                    { name: 'Maria Leena', role: 'ADV (GC)' }
+                    
                   ].map((person, index) => (
                     <Card key={index} className="hover:shadow-xl transition-shadow">
                       <CardContent className="pt-6 pb-6">
@@ -299,7 +307,8 @@ export default function About() {
                 <h4 className="text-xl font-semibold mb-4 text-primary">Rangers</h4>
                 <div className="grid grid-cols-1 gap-4">
                   {[
-                    { name: 'Tejaswini S', role: 'BASIC (RL)' }
+                    { name: 'Tejaswini S', role: 'BASIC (RL)' },
+                    { name: 'Anne L', role: 'BASIC (RL)' }
                   ].map((person, index) => (
                     <Card key={index} className="hover:shadow-xl transition-shadow">
                       <CardContent className="pt-6 pb-6">
