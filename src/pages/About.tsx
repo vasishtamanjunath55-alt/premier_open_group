@@ -27,15 +27,6 @@ export default function About() {
     </div>
   </div>
 </section>
-      <section className="container mx-auto px-4 py-16 flex justify-center">
-  <div className="rounded-full border-4 border-primary w-64 h-64 overflow-hidden shadow-lg">
-    <img 
-      src={groupPhoto}
-      alt="Group Photo"
-      className="w-full h-full object-cover"
-    />
-  </div>
-</section>
 
       {/* Establishment Info */}
       <section className="py-20 container mx-auto px-4 bg-muted">
