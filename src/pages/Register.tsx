@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import scoutBadge from "@/assets/scout-logo.png";
 import {
   Form,
   FormControl,
@@ -95,8 +96,12 @@ export default function Register() {
           {/* Header */}
           <div className="bg-white border-4 border-black p-6 mb-8">
             <div className="flex items-center justify-between mb-4">
-              <div className="w-20 h-20 bg-[#556B2F] flex items-center justify-center">
-                <span className="text-white text-xs text-center">Scout Badge</span>
+              <div className="w-20 h-20">
+                <img
+                  src={scoutBadge}
+                  alt="Scout Badge"
+                  className="w-full h-full object-contain"
+                  />
               </div>
               <div className="flex-1 text-center px-4">
                 <h1 className="text-xl font-bold mb-1">THE BHARAT SCOUTS AND GUIDES KARNATAKA</h1>
