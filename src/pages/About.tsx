@@ -191,8 +191,9 @@ export default function About() {
                 <h4 className="text-xl font-semibold mb-4 text-primary">Bulbuls</h4>
                 <div className="grid grid-cols-1 gap-4">
                   {[
-                    { name: 'Bhavyashree R', role: 'ADV(FL)' },
-                    { name: 'Shashikala', role: 'PRE-ALT (FL)' }
+                    { name: 'Shashikala', role: 'PRE-ALT (FL)' },
+                    { name: 'Bhavyashree R', role: 'ADV(FL)' }
+                    
                   ].map((person, index) => (
                     <Card key={index} className="hover:shadow-xl transition-shadow">
                       <CardContent className="pt-6 pb-6">
@@ -276,7 +277,7 @@ export default function About() {
                 <div className="grid grid-cols-1 gap-4">
                   {[
                     { name: 'Chandru P', role: 'HWB (R)' },
-                    { name: 'Vishnu Prasad', role: 'HWB (R)' }
+                    { name: 'Vishnu Prasad B G', role: 'HWB (R)' }
                   ].map((person, index) => (
                     <Card key={index} className="hover:shadow-xl transition-shadow">
                       <CardContent className="pt-6 pb-6">
