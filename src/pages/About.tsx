@@ -329,7 +329,6 @@ export default function About() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               { name: 'R P Chandru', role: 'District Organizer' },
-              { name: 'Suprith', role: 'SW RLY' },
               { name: 'Chandru P', role: 'ASOC' },
               { name: 'Sukesh', role: 'SW RLY' },
               { name: 'Manu', role: 'SGV' },
