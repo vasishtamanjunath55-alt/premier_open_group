@@ -223,7 +223,7 @@ export default function About() {
                   {[
   { name: 'R P Chandru', role: 'HWB (S)' },
   { name: 'Emmanuel Samson A', role: 'HWB (S)' },
-  { name: 'Ajay S', role: 'BASIC (S)', image: '/members/ajay.jpg' }
+  { name: 'Ajay S', role: 'BASIC (S)', image: '/members/ajay.jpeg' }
 ].map((person, index) => (
   <Card key={index} className="hover:shadow-xl transition-shadow">
     <CardContent className="pt-6 pb-6">
