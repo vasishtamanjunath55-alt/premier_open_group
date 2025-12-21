@@ -221,24 +221,28 @@ export default function About() {
                 <h4 className="text-xl font-semibold mb-4 text-primary">Scouts</h4>
                 <div className="grid grid-cols-1 gap-4">
                   {[
-                    { name: 'R P Chandru', role: 'HWB (S)' },
-                    { name: 'Emmanuel Samson A', role: 'HWB (S)' },
-                    { name: 'Ajay S', role: 'BASIC (S)' }
-                  ].map((person, index) => (
-                    <Card key={index} className="hover:shadow-xl transition-shadow">
-                      <CardContent className="pt-6 pb-6">
-                        <div className="flex items-center gap-4">
-                          <div className="w-16 h-16 rounded-full overflow-hidden bg-muted flex-shrink-0">
-                            <img src={pandaLogo} alt={person.name} className="w-full h-full object-cover" />
-                          </div>
-                          <div>
-                            <h5 className="font-bold">{person.name}</h5>
-                            <p className="text-sm text-muted-foreground">{person.role}</p>
-                          </div>
-                        </div>
-                      </CardContent>
-                    </Card>
-                  ))}
+  { name: 'R P Chandru', role: 'HWB (S)' },
+  { name: 'Emmanuel Samson A', role: 'HWB (S)' },
+  { name: 'Ajay S', role: 'BASIC (S)', image: '/members/ajay.jpg' }
+].map((person, index) => (
+  <Card key={index} className="hover:shadow-xl transition-shadow">
+    <CardContent className="pt-6 pb-6">
+      <div className="flex items-center gap-4">
+        <div className="w-16 h-16 rounded-full overflow-hidden bg-muted flex-shrink-0">
+          <img 
+            src={person.image || pandaLogo}
+            alt={person.name}
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div>
+          <h5 className="font-bold">{person.name}</h5>
+          <p className="text-sm text-muted-foreground">{person.role}</p>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+))}
                 </div>
               </div>
               <div>
