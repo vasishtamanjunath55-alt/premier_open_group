@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* BSG Brand Colors - Navy Blue, Scout Gold, Saffron Orange */
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Primary: Navy Blue (BSG official color) */
+    --primary: 222 47% 21%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 222 47% 35%;
+
+    /* Secondary: Scout Gold */
+    --secondary: 43 96% 56%;
+    --secondary-foreground: 222 47% 11%;
+
+    /* Accent: Saffron Orange (Indian pride) */
+    --accent: 24 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 222 47% 21%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(222 47% 21%), hsl(222 47% 35%));
+    --gradient-hero: linear-gradient(135deg, hsl(222 47% 21%) 0%, hsl(222 47% 35%) 50%, hsl(43 96% 56%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(24 100% 50%), hsl(43 96% 56%));
+    
+    /* Shadows */
+    --shadow-lg: 0 20px 50px -12px hsl(222 47% 21% / 0.25);
+    --shadow-glow: 0 0 40px hsl(43 96% 56% / 0.3);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 15%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 15%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 43 96% 56%;
+    --primary-foreground: 222 47% 11%;
+
+    --secondary: 222 47% 25%;
+    --secondary-foreground: 210 40% 98%;
+
+    --accent: 24 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --muted: 222 47% 18%;
+    --muted-foreground: 215 20% 65%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 222 47% 18%;
+    --input: 222 47% 18%;
+    --ring: 43 96% 56%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
