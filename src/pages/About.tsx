@@ -62,15 +62,15 @@ export default function About() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative h-96 flex items-center justify-center overflow-hidden">
+<section className="relative w-full min-h-[70vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img 
-            src={groupPhoto} 
-            alt="Premier Open Group members" 
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-primary opacity-90"></div>
-        </div>
+    <img
+      src={groupPhoto}
+      alt="Premier Open Group members"
+      className="w-full h-full object-contain bg-black"
+    />
+    <div className="absolute inset-0 bg-gradient-primary/40"></div>
+  </div>
         
         <div className="relative z-10 container mx-auto px-4 text-center text-primary-foreground">
           <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">About Us</h1>
