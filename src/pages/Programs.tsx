@@ -25,23 +25,28 @@ export default function Programs() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative h-96 flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0">
-          <img 
-            src={groupPhoto} 
-            alt="Premier Open Group" 
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-primary opacity-90"></div>
-        </div>
-        
-        <div className="relative z-10 container mx-auto px-4 text-center text-primary-foreground">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">Our Programs</h1>
-          <p className="text-xl md:text-2xl max-w-2xl mx-auto">
-            Discover exciting opportunities for growth and adventure
-          </p>
-        </div>
-      </section>
+<section className="relative w-full min-h-[70vh] overflow-hidden">
+  {/* Background Image */}
+  <div className="absolute inset-0">
+    <img
+      src={groupPhoto}
+      alt="Premier Open Group"
+      className="w-full h-full object-contain bg-black"
+    />
+    <div className="absolute inset-0 bg-gradient-primary/40"></div>
+  </div>
+
+  {/* Text at TOP */}
+  <div className="relative z-10 container mx-auto px-4 pt-36 text-center text-primary-foreground">
+    <h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">
+      Our Programs
+    </h1>
+    <p className="text-xl md:text-2xl max-w-2xl mx-auto">
+      Discover exciting opportunities for growth and adventure
+    </p>
+  </div>
+</section>
+
 
       {/* Programs Grid */}
       <section className="py-20 container mx-auto px-4">
