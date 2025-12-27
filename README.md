@@ -1,73 +1,78 @@
-# Welcome to your Lovable project
+# Premier Open Group 🌐
 
-## Project info
+**Website:** https://premieropengroup.com  
 
-**URL**: https://lovable.dev/projects/c4e5f9e1-7a04-45a5-8988-30cf02fc576d
+Premier Open Group is an official informational website designed to represent and promote youth development, leadership, service, and community-oriented initiatives. The platform serves as a digital presence to communicate the organization’s mission, values, activities, and outreach programs.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 📖 About the Website
 
-**Use Lovable**
+The Premier Open Group website provides a centralized space for visitors to:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c4e5f9e1-7a04-45a5-8988-30cf02fc576d) and start prompting.
+- Understand the organization’s vision and objectives  
+- Learn about programs, initiatives, and activities  
+- Stay updated on events and announcements  
+- Reach out through contact and enquiry options  
 
-Changes made via Lovable will be committed automatically to this repo.
+The site is built to be simple, accessible, and informative, ensuring clarity and ease of use for all age groups.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🎯 Purpose
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Promote values of leadership, discipline, service, and citizenship  
+- Provide transparent information about organizational activities  
+- Act as a trusted public interface for members, parents, and partners  
+- Support community engagement and awareness  
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## ✨ Key Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Informational pages (About, Mission, Programs)
+- Events and announcements
+- Contact and enquiry section
+- Responsive design for mobile and desktop
+- Clean and user-friendly layout
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 👥 Target Audience
 
-**Edit a file directly in GitHub**
+- Students and youth members  
+- Parents and guardians  
+- Volunteers and educators  
+- Community partners and the general public  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🛠️ Technology Overview
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The website is developed using modern web technologies with a focus on performance, responsiveness, and simplicity.
 
-## What technologies are used for this project?
+- Frontend: HTML, CSS, JavaScript  
+- Hosting: Web hosting platform (public domain)  
+- Design: Mobile-friendly and responsive  
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🌍 Live Website
 
-## How can I deploy this project?
+🔗 **https://premieropengroup.com**
 
-Simply open [Lovable](https://lovable.dev/projects/c4e5f9e1-7a04-45a5-8988-30cf02fc576d) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 📌 Notes
 
-Yes, you can!
+This repository may contain the source code, assets, and documentation related to the Premier Open Group website. The website content and structure may evolve as the organization grows.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📞 Contact
+
+For official enquiries, please use the contact details available on the website.
+
+---
+
+© Premier Open Group. All rights reserved.
