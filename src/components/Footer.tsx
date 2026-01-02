@@ -69,7 +69,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-primary-glow mt-8 pt-8 text-center text-sm opacity-75">
-          <p>&copy; 2025 The Bharat Scouts & Guides. All rights reserved.</p>
+          <p>&copy; Premier Open Group, The Bharath Scouts & Guides Karnataka </p>
         </div>
       </div>
     </footer>
